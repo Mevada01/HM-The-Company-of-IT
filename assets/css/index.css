@@ -1,0 +1,134 @@
+.navi {
+    padding: 10px 30px;
+
+}
+
+.header-bg-img {
+    background: url("../imgs/hero-image.jpg")no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.header-text {
+    margin: 90px 0;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 50px;
+    padding: 10px 20px;
+}
+
+p.hm {
+    padding: 0 20px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.header-text span {
+    /* vertical-align: middle; */
+    color: aqua;
+}
+
+.vam {
+    align-items: center;
+}
+
+.header-text p {
+    padding: 0 20px;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.view {
+    margin: 30px 20px;
+}
+
+.view a {
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgb(59, 190, 183) 0px 5px 15px;
+    /* box-shadow: rgba(59, 190, 183, 0.823) 0px 19px 38px, rgba(59, 190, 183) 0px 15px 12px; */
+    padding: 10px 20px;
+    /* margin: 30px 20px; */
+    background-color: rgb(59, 190, 183);
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.view a span {
+    font-size: 22px;
+    color: #fff;
+}
+
+#service {
+    padding: 30px 0;
+}
+
+.service-list {
+    /* border: 1px rgb(50, 50, 50); */
+    border-radius: 10px;
+    border-style: outset;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* grid-gap: 40px; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.service-list div {
+    /* background: #262626; */
+    padding: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.service-list .line {
+    border-right: .050em outset rgb(34, 33, 33);
+}
+
+.service-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.service-list div p {
+    font-size: 18px;
+}
+
+.service-list div a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 40px;
+}
+
+/* .service-list div::before{
+        position: relative;
+        content: "";
+        background: hsl(0deg 0% 0% / 15%);
+        height: 70%;
+        width: 1px;
+        position: absolute;
+        right: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+} */
+
+.service-list div:hover {
+    color: rgb(34, 33, 33);
+    background: rgb(65, 209, 202);
+    transform: translateY(-10px);
+}
