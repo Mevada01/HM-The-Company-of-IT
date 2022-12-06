@@ -1,8 +1,19 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .navi {
     padding: 10px 30px;
 
 }
-
+.navbar-brand img{
+    width: 100px;
+    height: 30px;
+}
 .header-bg-img {
     background: url("../imgs/hero-image.jpg")no-repeat;
     background-size: cover;
@@ -102,6 +113,7 @@ p.hm {
 }
 
 .service-list div h2 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 7px;
@@ -109,13 +121,14 @@ p.hm {
 }
 
 .service-list div p {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
 .service-list div a {
     text-decoration: none;
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: white;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -139,8 +152,11 @@ p.hm {
 } */
 
 .service-list div:hover {
-    color: rgb(34, 33, 33);
-    background: rgb(65, 209, 202);
+    /* color: rgb(34, 33, 33); */
+    /* font-weight: 600; */
+    /* background: rgb(65, 209, 202); */
+    background-color: #00C2C1;
+    color: whitesmoke;
     transform: translateY(-10px);
 }
 
@@ -201,7 +217,7 @@ p.hm {
     background-color: rgb(59, 190, 183);
     color: whitesmoke;
     text-decoration: none;
-    /* font-size: 17px; */
+    /* font-size: 17px;     */
 }
 
 .slt-ul .view a span {
@@ -209,14 +225,17 @@ p.hm {
     color: rgb(34, 33, 33);
 }
 
-.abt-sec-2-lft  {
+.abt-sec-2-lft {
     position: relative;
     padding: 20px 30px;
     margin: 20px 10px;
 }
 
 .abt-sec-2-lft img {
+    margin-left: 50px;
     border-radius: 23px;
+    width: 460px;
+    height: 420px;
 }
 
 .abt-sec-2-lft::before {
@@ -230,4 +249,41 @@ p.hm {
     height: 100%;
     animation: slide-top 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
     -webkit-animation: slide-top 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+}
+
+
+.pos-ab {
+    bottom: -50px;
+    left: 140px;
+    /* border-style: outset; */
+    /* border: none; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.bg-clr {
+    background-color: white;
+    border-radius: 20px !important;
+}
+
+.my-5 {
+    margin-top: 7em !important;
+}
+.cl-4 img{
+    width: 100%;
+}
+.col-8 p{
+    font-size: 14px;
+    text-align: middle;
+}
+.hover:hover {
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgb(59, 190, 183) 0px 5px 15px;
+    /* box-shadow: rgba(59, 190, 183, 0.823) 0px 19px 38px, rgba(59, 190, 183) 0px 15px 12px; */
+    /* padding: 10px 20px; */
+    /* margin: 30px 20px; */
+    background-color: rgb(59, 190, 183);
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all .5s;
 }
