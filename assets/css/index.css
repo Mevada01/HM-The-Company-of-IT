@@ -95,7 +95,7 @@ p.hm {
     /* display: grid; */
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     /* grid-gap: 40px; */
-    margin-top: 25px;
+    /* margin-top: 25px; */
     margin-bottom: 25px;
 }
 
@@ -110,6 +110,10 @@ p.hm {
 
 .service-list .line {
     border-right: .050em outset rgb(34, 33, 33);
+}
+
+.service-list .line img{
+    width: 60px;
 }
 
 .service-list div h2 {
@@ -197,7 +201,7 @@ p.hm {
     color: rgb(59, 190, 183);
 }
 
-.slt-ul .view a {
+ .view a {
     text-decoration: none;
     border-radius: 6px;
     border-style: outset;
@@ -207,7 +211,7 @@ p.hm {
     transition: all .5s;
 }
 
-.slt-ul .view a:hover {
+ .view a:hover {
     border-radius: 6px;
     border: none;
     box-shadow: rgb(59, 190, 183) 0px 5px 15px;
@@ -220,7 +224,7 @@ p.hm {
     /* font-size: 17px;     */
 }
 
-.slt-ul .view a span {
+.view a span {
     font-size: 22px;
     color: rgb(34, 33, 33);
 }
@@ -286,4 +290,8 @@ p.hm {
     color: whitesmoke;
     text-decoration: none;
     transition: all .5s;
+}
+
+#sec-3{
+    background-color: #d6d6d647;
 }
