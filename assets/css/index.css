@@ -356,7 +356,8 @@ p.hm {
 }
 
 .bg-clr-sec-4 {
-    padding: 30px 0;
+    border-radius: 10px;
+    padding: 60px 0 40px 50px;
     z-index: 2;
     min-width: 1100px;
     background-color: #09111A;
