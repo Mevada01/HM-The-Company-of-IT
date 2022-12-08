@@ -178,9 +178,30 @@ p.hm {
     font-weight: 700;
 }
 
+.slt h2.brand {
+    /* padding: 10px 20px; */
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .slt p {
     padding: 10px 20px;
     font-size: 17px;
+    /* text-align: justify; */
+}
+
+.slt p.sec-4-p{
+    /* padding: 10px 20px; */
+    font-size: 17px;
+    text-align: left !important;
+    width: 70%;
+    word-spacing: 1px;
+}
+
+.slt p.brand {
+    /* padding: 10px 20px; */
+    font-size: 17px;
+    color: #444444;
     text-align: justify;
 }
 
@@ -256,8 +277,9 @@ p.hm {
 
     animation: slide-top 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
     -webkit-animation: slide-top 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
-    
+
 }
+
 @-webkit-keyframes slide-top {
     0% {
         transform: translateY(0);
@@ -322,10 +344,52 @@ p.hm {
     background-color: #d6d6d647;
 }
 
-.bg-img-sec-4{
+.bg-img-sec-4 img {
     background: url("../imgs/word_bg.jpg")no-repeat;
     border-radius: 20px;
     background-size: cover;
     min-height: 500px;
     min-width: auto;
+    width: 100%;
+    z-index: -10;
+    float: right;
+}
+
+.bg-clr-sec-4 {
+    padding: 30px 0;
+    z-index: 2;
+    min-width: 1100px;
+    background-color: #09111A;
+}
+
+.bg-clr-sec-4 P,
+h2 {
+    color: aliceblue;
+}
+
+.view-2 {
+    margin: 30px 20px;
+}
+
+.view-2 a {
+    text-decoration: none;
+    border-radius: 6px;
+    border-style: outset;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    transition: all .5s;
+}
+
+.view-2 a:hover {
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgb(59, 190, 183) 0px 5px 15px;
+    /* box-shadow: rgba(59, 190, 183, 0.823) 0px 19px 38px, rgba(59, 190, 183) 0px 15px 12px; */
+    padding: 10px 20px;
+    /* margin: 30px 20px; */
+    background-color: rgb(59, 190, 183);
+    color: whitesmoke;
+    text-decoration: none;
+    /* font-size: 17px; */
 }
