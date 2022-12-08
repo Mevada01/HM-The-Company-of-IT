@@ -321,3 +321,11 @@ p.hm {
 #sec-3 {
     background-color: #d6d6d647;
 }
+
+.bg-img-sec-4{
+    background: url("../imgs/word_bg.jpg")no-repeat;
+    border-radius: 20px;
+    background-size: cover;
+    min-height: 500px;
+    min-width: auto;
+}
