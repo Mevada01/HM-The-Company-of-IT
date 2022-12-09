@@ -363,9 +363,13 @@ p.hm {
     background-color: #09111A;
 }
 
-.bg-clr-sec-4 P,
-h2 {
-    color: aliceblue;
+.bg-clr-sec-4
+h2.bg-clr-sec-4-h2{
+    color: aliceblue ;
+}
+.bg-clr-sec-4
+p.bg-clr-sec-4-p{
+    color: aliceblue ;
 }
 
 .view-2 {
@@ -393,4 +397,16 @@ h2 {
     color: whitesmoke;
     text-decoration: none;
     /* font-size: 17px; */
+}
+
+.bg-clr-sec-5{
+    align-items: center;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.slt p.sec-5-p{
+    /* padding: 10px 20px; */
+    font-size: 20px;
+    word-spacing: 1px;
 }
