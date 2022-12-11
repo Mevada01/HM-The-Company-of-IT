@@ -179,6 +179,7 @@ p.mh {
     /* vertical-align: middle; */
     color: rgb(59, 190, 183);
 }
+
 .slt .mh span {
     font-size: 24px;
     /* vertical-align: middle; */
@@ -203,7 +204,7 @@ p.mh {
     /* text-align: justify; */
 }
 
-.slt p.sec-4-p{
+.slt p.sec-4-p {
     /* padding: 10px 20px; */
     font-size: 17px;
     text-align: left !important;
@@ -353,7 +354,7 @@ p.mh {
     transition: all .5s;
 }
 
-#sec-3 {
+.sec-3 {
     background-color: #d6d6d647;
 }
 
@@ -376,13 +377,12 @@ p.mh {
     background-color: #09111A;
 }
 
-.bg-clr-sec-4
-h2.bg-clr-sec-4-h2{
-    color: aliceblue ;
+.bg-clr-sec-4 h2.bg-clr-sec-4-h2 {
+    color: aliceblue;
 }
-.bg-clr-sec-4
-p.bg-clr-sec-4-p{
-    color: aliceblue ;
+
+.bg-clr-sec-4 p.bg-clr-sec-4-p {
+    color: aliceblue;
 }
 
 .view-2 {
@@ -412,14 +412,139 @@ p.bg-clr-sec-4-p{
     /* font-size: 17px; */
 }
 
-.bg-clr-sec-5{
+.bg-clr-sec-5 {
     align-items: center;
-    text-align: center; 
+    text-align: center;
     margin: 0 auto;
 }
 
-.slt p.sec-5-p{
+.slt p.sec-5-p {
     /* padding: 10px 20px; */
     font-size: 20px;
     word-spacing: 1px;
+}
+
+#portfolio {
+    padding: 50px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 6), #00eaff86);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    font-size: 14px;
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.layer p {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.layer a {
+    /* color: aliceblue; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+    cursor: pointer;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: #444444;
+}
+
+.btn:hover {
+    background: #00c2c294;
+    color: #444444;
+    transition: 0.5s;
+}
+
+
+.sec-6 {
+    /* margin-top: 100px; */
+    background: url("../imgs/Get_In_Touch-copy-1-2.jpg") no-repeat;
+    background-size: contain;
+    min-height: 500px;
+}
+
+.pos-ab-sec6 {
+    bottom: -50px;
+    left: 140px;
+    /* border-style: outset; */
+    /* border: none; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media only screen and (max-width:767px) {
+    .elementor-column {
+        width: 100%
+    }
+
+    .bg-clr-sec-4 {
+        min-width: 767px;
+    }
+
+    .slt h2 {
+        font-size: 31px;
+    }
 }
