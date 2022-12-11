@@ -34,6 +34,14 @@ html {
 }
 
 p.hm {
+    /* color: aliceblue; */
+    padding: 0 20px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+p.mh {
+    color: aliceblue;
     padding: 0 20px;
     font-size: 19px;
     text-transform: uppercase;
@@ -167,6 +175,11 @@ p.hm {
 }
 
 .slt .hm span {
+    font-size: 24px;
+    /* vertical-align: middle; */
+    color: rgb(59, 190, 183);
+}
+.slt .mh span {
     font-size: 24px;
     /* vertical-align: middle; */
     color: rgb(59, 190, 183);
