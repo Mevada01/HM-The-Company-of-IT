@@ -525,14 +525,31 @@ p.mh {
     background: url("../imgs/Get_In_Touch-copy-1-2.jpg") no-repeat;
     background-size: contain;
     min-height: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .pos-ab-sec6 {
-    bottom: -50px;
+    /* bottom: -50px; */
     left: 140px;
     /* border-style: outset; */
     /* border: none; */
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.iclass i {
+    background-color: #00C2C1;
+    border-radius: 50%;
+    padding: 20px;
+    color: White;
+    font-size: 30px;
+    margin: 100px 0 20px 0;
+}
+
+.sec-6-txt h3 {
+    color: white ;
+    font-size: 40px;
 }
 
 @media only screen and (max-width:767px) {
