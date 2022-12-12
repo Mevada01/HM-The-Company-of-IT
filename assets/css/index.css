@@ -316,7 +316,8 @@ p.mh {
 
 
 .pos-ab {
-    bottom: -50px;
+    /* top: -200px; */
+    bottom: -100px;
     left: 140px;
     /* border-style: outset; */
     /* border: none; */
@@ -552,13 +553,17 @@ p.mh {
     font-size: 40px;
 }
 
+
 @media only screen and (max-width:767px) {
     .elementor-column {
         width: 100%
     }
+    .position-absolute{
+        position: static !important;
+    }
 
     .bg-clr-sec-4 {
-        min-width: 767px;
+        width: 767px;
     }
 
     .slt h2 {
