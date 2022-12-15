@@ -555,6 +555,9 @@ p.mh {
 
 
 @media only screen and (max-width:767px) {
+    *{
+        text-align: left;
+    }
     .elementor-column {
         width: 100%
     }
@@ -564,6 +567,9 @@ p.mh {
 
     .bg-clr-sec-4 {
         width: 767px;
+    }
+    .bg-img-sec-4{
+        display: none;
     }
 
     .slt h2 {
