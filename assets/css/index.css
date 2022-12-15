@@ -586,4 +586,11 @@ p.mh {
     color: black     ;
     font-size: 40px;
 }
+.sec-6{
+   background :none ;
+   min-height: 0 !important;
+}
+.iclass i {
+    display: none;
+}
 }
