@@ -532,7 +532,7 @@ p.mh {
 }
 
 .pos-ab-sec6 {
-    /* bottom: -50px; */
+    bottom: -50px;
     left: 140px;
     /* border-style: outset; */
     /* border: none; */
@@ -551,6 +551,28 @@ p.mh {
 .sec-6-txt h3 {
     color: white;
     font-size: 40px;
+}
+
+.elementor-icon {
+    padding: 60px;
+    border-radius: 50%;
+    background-color: #00C2C1;
+    color: #444444;
+}
+
+.elementor-icon:hover {
+    padding: 40px;
+    /* border-radius: 50%; */
+    background-color: #444444;
+    color: #00C2C1;
+}
+
+.elementor-icon i {
+    margin: 35px auto;
+    font-size: 45px;
+    /* display: block; */
+    width: 1em;
+    height: 1em;
 }
 
 
