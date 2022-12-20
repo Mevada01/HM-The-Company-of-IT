@@ -554,14 +554,14 @@ p.mh {
 }
 
 .elementor-icon {
-    padding: 60px;
+    padding: 76px 54px 55px 55px;;
     border-radius: 50%;
     background-color: #00C2C1;
     color: #444444;
 }
 
 .elementor-icon:hover {
-    padding: 40px;
+    padding: 76px 54px 55px 55px;;
     /* border-radius: 50%; */
     background-color: #444444;
     color: #00C2C1;
