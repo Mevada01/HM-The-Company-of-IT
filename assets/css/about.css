@@ -37,6 +37,12 @@ html {
     color: #ffffff;
 }
 
+.header-text p {
+    padding: 0 20px;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
 .header-text h2 {
     font-size: 50px;
     padding: 10px 20px;
@@ -47,23 +53,25 @@ html {
     padding: 10px 20px;
 }
 
+
 p.hm {
+    /* color: aliceblue; */
+    /* padding: 0 20px; */
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+p.mh {
     /* color: aliceblue; */
     padding: 0 20px;
     font-size: 19px;
     text-transform: uppercase;
 }
 
-p.mh {
-    color: aliceblue;
-    padding: 0 20px;
-    font-size: 19px;
-    text-transform: uppercase;
-}
 
-.header-text span {
+p.hm span {
     /* vertical-align: middle; */
-    color: aqua;
+    color: #00C2C1;
 }
 
 .vam {
@@ -71,12 +79,50 @@ p.mh {
     align-items: center;
 }
 
-.header-text p {
-    padding: 0 20px;
-    font-size: 19px;
-    margin: 10px 0;
+.sec-2-txt h2 {
+    font-weight: 700;
 }
 
+.sec-2-txt ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sec-2-txt ul li {
+    line-height: 36px;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sec-2-txt ul li i {
+    margin-right: 10px;
+    color: #00C2C1;
+}
+.sec-2-img img{
+    width: 100%;
+    margin:0 20px;
+    padding:0 80px;
+}
+.sec-3-img img{
+    width: 100%;
+    /* margin-left: 80px;
+    padding-left: 80px; */
+}
+ 
+.sec-3-bg-img {
+    background: url("http://newsite.hcshub.in/wp-content/uploads/2021/07/bg_white.svg");
+    background-color: #F5F6F7;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* 
 .view {
     margin: 30px 20px;
 }
@@ -95,16 +141,16 @@ p.mh {
     border-radius: 6px;
     border: none;
     box-shadow: rgb(59, 190, 183) 0px 5px 15px;
-    /* box-shadow: rgba(59, 190, 183, 0.823) 0px 19px 38px, rgba(59, 190, 183) 0px 15px 12px; */
+    box-shadow: rgba(59, 190, 183, 0.823) 0px 19px 38px, rgba(59, 190, 183) 0px 15px 12px;
     padding: 10px 20px;
-    /* margin: 30px 20px; */
+    margin: 30px 20px;
     background-color: rgb(59, 190, 183);
     color: whitesmoke;
     text-decoration: none;
-    /* font-size: 17px; */
+    font-size: 17px;
 }
 
 .view a span {
     font-size: 22px;
     color: #fff;
-}
+} */
