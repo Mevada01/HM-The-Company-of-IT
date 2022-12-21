@@ -613,7 +613,10 @@ p.hm2 {
     color: rgb(59, 190, 183) !important;
     transition: all .5s;
 }
-
+.icons i {
+    transition: all .5s;
+    padding: 5px;
+}
 .fa-twitter:hover {
     color: #00acee;
 }
