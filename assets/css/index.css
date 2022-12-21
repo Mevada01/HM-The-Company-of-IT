@@ -20,6 +20,7 @@ html {
     background: url("../imgs/hero-image.jpg")no-repeat;
     background-size: cover;
     min-height: 600px;
+    background-attachment: fixed;
 }
 
 .header-text {
@@ -529,6 +530,8 @@ p.mh {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-attachment: fixed;
+    background-position: bottom center;
 }
 
 .pos-ab-sec6 {
