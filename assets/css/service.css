@@ -18,11 +18,12 @@ html {
 
 
 .header-bg-img {
-    background: url("../imgs/about-us-bg.jpg")no-repeat;
-    background-size: cover;
+    background: url("../imgs/service-header-bg-img.jpg")no-repeat;
+    background-size: auto;
     /* min-height: 600px; */
     background-position: bottom center;
     background-attachment: fixed;
+
 }
 
 .opacity {
@@ -53,3 +54,37 @@ html {
     padding: 10px 20px;
 }
 
+.sec-2-txt h2 {
+    font-weight: 700;
+}
+
+.sec-2-txt ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sec-2-txt ul li {
+    line-height: 36px;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+}
+
+.sec-2-txt ul li i {
+    margin-right: 10px;
+    color: #00C2C1;
+}
+
+.sec-2-img img {
+    width: 100%;
+    margin: 0 20px;
+    padding: 0 80px;
+}
+
+a.vm{
+    margin: 20px 0;
+    border: 1px solid gray;
+    padding: 8px 20px;
+    color: gray;
+    text-decoration: none;
+}

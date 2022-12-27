@@ -72,7 +72,7 @@ p.mh {
 p.hm span {
     /* vertical-align: middle; */
     color: #00C2C1;
-}
+}   
 
 .sec-2-txt h2 {
     font-weight: 700;
@@ -152,7 +152,7 @@ p.hm span {
     z-index: -1;
 }
 
-element.style {}
+/* element.style {} */
 
 .elementor-9 .elementor-element.elementor-element-a783509>.elementor-shape-bottom svg {
     width: calc(127% + 1.3px);
