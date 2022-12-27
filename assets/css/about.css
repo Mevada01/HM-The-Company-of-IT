@@ -72,7 +72,7 @@ p.mh {
 p.hm span {
     /* vertical-align: middle; */
     color: #00C2C1;
-}   
+}
 
 .sec-2-txt h2 {
     font-weight: 700;
@@ -99,10 +99,34 @@ p.hm span {
     width: 100%;
     margin: 0 20px;
     padding: 0 80px;
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-30px);
+    }
 }
 
 .sec-3-img img {
     width: 100%;
+    animation: slide-top 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+    -webkit-animation: slide-top 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
     /* margin-left: 80px;
     padding-left: 80px; */
 }

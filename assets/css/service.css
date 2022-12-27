@@ -81,10 +81,51 @@ html {
     padding: 0 80px;
 }
 
-a.vm{
+a.vm {
     margin: 20px 0;
     border: 1px solid gray;
     padding: 8px 20px;
     color: gray;
     text-decoration: none;
+}
+
+
+@-webkit-keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.sec-3-img img {
+    width: 100%;
+    animation: slide-top 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+    -webkit-animation: slide-top 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite alternate-reverse both;
+    /* margin-left: 80px;
+    padding-left: 80px; */
+}
+
+.sec-3-bg-img {
+    background-color: #09111A;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.sec-3-txt{
+    color: #ffffff;
 }
