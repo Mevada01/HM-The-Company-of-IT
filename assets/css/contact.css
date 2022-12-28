@@ -53,3 +53,298 @@ html {
     font-size: 50px;
     padding: 10px 20px;
 }
+
+.sec-2-img img {
+    width: 100%;
+    margin: 0 20px;
+    padding: 0 80px;
+}
+
+.elementor-15 .elementor-element.elementor-element-52f0ee8.elementor-column.elementor-element[data-element_type="column"]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-15 .elementor-element.elementor-element-52f0ee8>.elementor-element-populated {
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+}
+
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.elementor *,
+.elementor :after,
+.elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: var(--flex-direction);
+    flex-direction: var(--flex-direction);
+    -ms-flex-wrap: var(--flex-wrap);
+    flex-wrap: var(--flex-wrap);
+    -webkit-box-pack: var(--justify-content);
+    -ms-flex-pack: var(--justify-content);
+    justify-content: var(--justify-content);
+    -webkit-box-align: var(--align-items);
+    -ms-flex-align: var(--align-items);
+    align-items: var(--align-items);
+    -ms-flex-line-pack: var(--align-content);
+    align-content: var(--align-content);
+    gap: var(--gap);
+    -ms-flex-preferred-size: var(--flex-basis);
+    flex-basis: var(--flex-basis);
+    -webkit-box-flex: var(--flex-grow);
+    -ms-flex-positive: var(--flex-grow);
+    flex-grow: var(--flex-grow);
+    -ms-flex-negative: var(--flex-shrink);
+    flex-shrink: var(--flex-shrink);
+    -webkit-box-ordinal-group: var(--order);
+    -ms-flex-order: var(--order);
+    order: var(--order);
+    -ms-flex-item-align: var(--align-self);
+    align-self: var(--align-self);
+}
+
+.elementor {
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+
+.elementor-kit-2212 {
+    --e-global-color-primary: #212830;
+    --e-global-color-secondary: #FFFFFF;
+    --e-global-color-text: #212830;
+    --e-global-color-accent: #00C2C1;
+    --e-global-typography-primary-font-family: "Montserrat";
+    --e-global-typography-primary-font-size: 14px;
+    --e-global-typography-primary-font-weight: normal;
+    --e-global-typography-primary-font-style: normal;
+    --e-global-typography-secondary-font-family: "Raleway";
+    --e-global-typography-secondary-font-weight: 500;
+    --e-global-typography-text-font-family: "Montserrat";
+    --e-global-typography-text-font-size: 1rem;
+    --e-global-typography-text-font-weight: normal;
+    --e-global-typography-text-font-style: normal;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    color: #212830;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+
+.elementor-15 .elementor-element.elementor-element-6200726 {
+    text-align: center;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.elementor-widget-wrap>.elementor-element {
+    /* text-align: center; */
+    width: 100%;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+
+.elementor-widget {
+    position: relative;
+}
+
+.elementor-15 .elementor-element.elementor-element-e386c6b {
+    text-align: center;
+    color: #676D73;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+
+/* .elementor-15 .elementor-element.elementor-element-9cd1158 .eael-contact-form-7-wrapper .eael-contact-form.eael-contact-form-7 {
+    max-width: 1500px;
+} */
+
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+
+.elementor *,
+.elementor :after,
+.elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.eael-contact-form-7 .wpcf7-form::before,
+.eael-contact-form-7 .wpcf7-form::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.eael-contact-form-7 .wpcf7-form p {
+    margin-bottom: 20px;
+}
+
+.contact_main form p {
+    margin: 0 0 1rem;
+}
+
+.wpcf7 form>div,
+.wpcf7 form>p {
+    margin-bottom: 20px;
+}
+
+.contact_form .contact_main .eael-contact-form-7 form p label {
+    display: inline-block;
+    width: 100%;
+}
+
+.elementor-widget-eael-contact-form-7 .eael-contact-form-7 .wpcf7-form label,
+.elementor-widget-eael-contact-form-7 .eael-contact-form-7 .wpcf7-form .wpcf7-quiz-label {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.elementor-15 .elementor-element.elementor-element-9cd1158 .eael-contact-form-7 .wpcf7-form p:not(:last-of-type) .wpcf7-form-control-wrap {
+    margin-bottom: 0px;
+}
+
+.contact_form .contact_main .eael-contact-form-7 form p label>span {
+    display: inline-block;
+    width: 100%;
+}
+
+.elementor-widget-eael-contact-form-7 .eael-contact-form-7 .wpcf7-form-control.wpcf7-text,
+.elementor-widget-eael-contact-form-7 .eael-contact-form-7 .wpcf7-form-control.wpcf7-quiz,
+.elementor-widget-eael-contact-form-7 .eael-contact-form-7 .wpcf7-form-control.wpcf7-quiz,
+.elementor-widget-eael-contact-form-7 .eael-contact-form-7 .wpcf7-form-control.wpcf7-textarea,
+.elementor-widget-eael-contact-form-7 .eael-contact-form-7 .wpcf7-form-control.wpcf7-select {
+    font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.contact_form .contact_main .eael-contact-form-7 form p label>span input {
+    padding: 0.5rem;
+    height: 45px;
+    border: 1px solid #d2d3d5;
+    width: 100%;
+    display: inline-block;
+}
+.contact_form .contact_main .eael-contact-form-7 form p label>span textarea {
+    padding: 0.5rem;
+    /* height: 45px; */
+    border: 1px solid #d2d3d5;
+    width: 100%;
+    display: inline-block;
+}
+
+.eael-contact-form-7 .wpcf7-form p span.wpcf7-form-control-wrap {
+    margin-bottom: 0px;
+}
+
+.elementor *,
+.elementor :after,
+.elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+
+.eael-contact-form-7 .wpcf7-form p {
+    margin-bottom: 20px;
+}
+
+.contact_form .contact_main .eael-contact-form-7 form p label {
+    display: inline-block;
+    width: 100%;
+}
+
+.contact_form .contact_main .eael-contact-form-7 form p:nth-last-of-type(1) {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_form .contact_main .eael-contact-form-7 form p input[type="submit"] {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    background: #04b3ad;
+    border: 1px solid #04b3ad;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding: 12px 24px;
+    min-width: 8rem;
+    transition: all 0.3s ease;
+}
+
+.elementor-size-default {
+    text-align: center;
+}
