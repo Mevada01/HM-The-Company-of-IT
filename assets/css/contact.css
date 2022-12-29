@@ -292,6 +292,7 @@ html {
     width: 100%;
     display: inline-block;
 }
+
 .contact_form .contact_main .eael-contact-form-7 form p label>span textarea {
     padding: 0.5rem;
     /* height: 45px; */
@@ -347,4 +348,116 @@ html {
 
 .elementor-size-default {
     text-align: center;
+}
+
+.contactshortcut {
+    text-align: center;
+}
+
+.contactshortcut a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    height: 100%;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #00c2c1;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+}
+
+.contactshortcut a:hover {
+    background-color: #00C2C1;
+    color: #fff;
+}
+
+.contactshortcut a:hover img {
+    filter: brightness(0) invert(1) !important;
+    transition: 0.3s ease-in-out;
+}
+
+.contactshortcut span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contactshortcut span img {
+    width: 30%;
+}
+
+.contactshortcut a h4 {
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/* 
+.bg-clr-ftr {
+    background-color: rgb(33, 37, 41);
+} */
+
+.fotter-text p {
+    /* padding: 0 20px; */
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.fotter-text span {
+    /* vertical-align: middle; */
+    color: aqua;
+}
+
+.fotter-text {
+
+    color: #fff;
+}
+
+.fotter-text h2 {
+    font-size: 50px;
+    padding: 10px 20px;
+}
+
+p.hm2 {
+    /* color: aliceblue; */
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.ftr-link:hover {
+    color: rgb(59, 190, 183) !important;
+    transition: all .5s;
+}
+
+.icons i {
+    transition: all .5s;
+    padding: 5px;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #C20806;
+}
+
+.link-secondary .fa-skype:hover {
+    color: #00aff0;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.fa-github:hover {
+    color: #171515;
 }
